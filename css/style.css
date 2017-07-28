@@ -1,0 +1,130 @@
+
+.main{
+	background-image:url('fon.png');
+	
+	
+}
+.moon {
+	position:absolute;
+	top:600px;
+	left:10px;
+	-webkit-animation-name: orbita;
+  -webkit-animation-duration: 100s;
+	 -webkit-animation-fill-mode: forwards;
+}
+.star {
+	position:absolute;
+	top:500px;
+	left:600px;
+	width:18px;
+		-webkit-animation-name: starss;
+  -webkit-animation-duration: 10s;
+  animation-iteration-count: infinite;
+	
+	
+
+}
+.star8 {
+	position:absolute;
+	top:150px;
+	left:1000px;
+	width:20px;
+			-webkit-animation-name: starss;
+  -webkit-animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+.star9 {
+	position:absolute;
+	top:300px;
+	left:1200px;
+	width:20px;
+			-webkit-animation-name: starss;
+  -webkit-animation-duration: 10s;
+  animation-iteration-count: infinite;
+	
+
+}
+.star1 {
+	position:absolute;
+	top:300px;
+	left:140px;
+	width:8px
+	
+
+}
+
+.star2{
+	position:absolute;
+	top:290px;
+	left:220px;
+	width:15px
+	
+
+}
+
+.star3 {
+	position:absolute;
+	top:305px;
+	left:270px;
+	width:14px;
+	
+		-webkit-animation-name: starss;
+  -webkit-animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.star4 {
+	position:absolute;
+	top:320px;
+	left:340px;
+	width:10px
+	
+
+}
+
+.star5 {
+	position:absolute;
+	top:380px;
+	left:345px;
+	width:10px
+	
+
+}
+
+.star6 {
+	position:absolute;
+	top:380px;
+	left:440px;
+	width:10px;
+			-webkit-animation-name: starss;
+  -webkit-animation-duration: 10s;
+  animation-iteration-count: infinite;
+	
+
+}
+.star7 {
+	position:absolute;
+	top:325px;
+	left:450px;
+	width:12px
+	
+
+}
+
+
+
+@-webkit-keyframes orbita{
+	0%{width:300px}
+	25%{}
+	50%{}
+	75%{}
+	100%{left:1000px;top:100px;width:50px; }
+}
+@-webkit-keyframes starss{
+	0%{width:5px}
+	25%{}
+	50%{width:17px}
+	75%{}
+	100%{width:5px}
+}
